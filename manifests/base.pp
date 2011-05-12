@@ -1,5 +1,5 @@
 class haveged::base {
-    package { 'haveged':
-        ensure => present,
-    }    
+  package { 'haveged':
+    ensure => present,
+  }    
 }

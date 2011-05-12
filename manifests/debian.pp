@@ -1,5 +1,5 @@
 class haveged::debian inherits haveged::base {
-    Package[haveged]{
-        name => haveged,
-    }
+  Package[haveged]{
+    name => haveged,
+  }
 }
