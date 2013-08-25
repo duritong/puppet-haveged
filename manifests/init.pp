@@ -1,6 +1,6 @@
+# manages the haveged daemon
 class haveged {
-  case $operatingsystem {
-    debian: { include haveged::debian }
+  case $::operatingsystem {
     default: { include haveged::base }
   }
 }
